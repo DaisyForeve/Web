@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p,body,span{
+padding:0;margin:0;}
+ul,li{list-style:none;}
+img{border:0 none;}
+a{ text-decoration:none !important; color:#4a4a4a; font-family:"微软雅黑"; }
+.fl{float:left;}
+.fr{float:right;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+body{ font-family:"微软雅黑"; font-size:14px; color:#666666; line-height:24px; }
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;} 
+.clearfix { zoom:1;}
+.w12{
+	width: 1200px;
+	margin: 0 auto;
+}
+/**新闻*/
+/*.news li{ overflow: hidden; border-bottom:1px dashed #666; padding-bottom:5px; height:38px;
+line-height:38px;padding-top:5px;}
+.news li a{font-size:14px; color:#000; }*/
+/*.newstitle {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.news_message{
+	height:30px;
+	line-height:30px;
+	text-align:center;	
+}*/
+/*分页*/
+.pager{
+	overflow:hidden;  
+	text-align:center;
+	margin-top:50px; 
+	margin-bottom:50px;
+}
+.pager span:first-child a{
+	width: 65px;
+}
+.pager span:last-child a{
+	width: 65px;
+}
+.pager span a{ 
+	font-size:14px; 
+	display:inline-block; 
+	color:#5a5a5a; 
+	line-height:20px; 
+	width:25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	border: 1px solid #D5D5D5;
+	margin:0 2px;
+}
+/*.pager span a:hover{
+	background: #fd9827;
+}*/
+.pager span a.active{
+	background: #fd9827;
+}

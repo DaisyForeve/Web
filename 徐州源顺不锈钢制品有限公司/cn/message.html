@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线留言</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/html5zoo.js"></script>
+    <script src="js/lovelygallery.js"></script>
+    <script src="js/wow.js"></script>
+</head>
+<body>
+    <!--头部 -->
+    <div class="warp">
+        <div class="header">
+            <div class="header-left">
+                <img src="images/logo.png" class="img" alt="">
+            </div>
+            <div class="clear"></div>
+            <div class="header-left-text">
+                <div class="header-left-text-bg">
+                    <strong>
+                        <span><a>某某泵业</a>制造有限公司</span>
+                    </strong>
+                </div>
+                <div class="header-left-text-sm">
+                           <span>
+                               BENG YUE MANUFACTURING Co.,Ltd
+                           </span>
+                </div>
+            </div>
+            <div class="header-center">
+                <p>10年泵业专业生产机构</p>
+                <p>前沿科技 卓越品质 你身边的供水专家</p>
+            </div>
+            <div class="header-right">
+                <img src="images/phone.png" alt="">
+                <span>订购热线电话:</span>
+                <p>400-123456789</p>
+            </div>
+        </div>
+    </div>
+    <!--导航栏-->
+    <nav>
+        <div class="warp">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">公司简介</a></li>
+                <li><a href="products.html">产品展示</a></li>
+                <li><a href="case.html">成功案例</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li class="active"><a href="message.html">在线留言</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--banner图-->
+    <div class="about-banner"></div>
+    <!--内容主体标题-->
+    <div class="about-body">
+        <div class="warp">
+            <p>
+                您当前的位置：
+                <a href="index.html">网站首页</a>
+                <span>≡</span>
+                <a href="message.html">在线留言</a>
+            </p>
+        </div>
+    </div>
+    <!--标题-->
+    <div class="about-title">
+        <div class="about-title-left fl"></div>
+        <strong>在线留言</strong>
+        <div class="about-title-right fr"></div>
+        <p>ONLINE MESSAGE</p>
+    </div>
+    <!--主体-->
+    <div class="message">
+        <div class="warp">
+            <table border="0" align="left" cellpadding="2" cellspacing="1">
+
+                <script language="JavaScript" type="text/JavaScript">
+                    function check(){
+                        var obj = document.form;
+
+                        if (obj.姓名.value == "")
+                        {
+                            alert("请填写姓名！");
+                            return false;
+                        }
+                        if (obj.性别.value == "")
+                        {
+                            alert("请填写性别！");
+                            return false;
+                        }
+                        if (obj.城市.value == "")
+                        {
+                            alert("请填写城市！");
+                            return false;
+                        }
+                        if (obj.详细地.value == "")
+                        {
+                            alert("请填写详细地址！");
+                            return false;
+                        }
+                        if (obj.电话.value == "")
+                        {
+                            alert("请填写电话！");
+                            return false;
+                        }
+                    }
+                </script>
+
+                <form action="message.html" method="post" name="form" onsubmit="return check();">
+                    <tr>
+                        <td width="97" align="center" valign="middle">姓 名：</td>
+                        <td width="503" align="left" valign="middle"><label>
+                            <input type="text" name="姓名" />
+                        </label>
+                            <span class="STYLE1">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=" font-weight:bold;">( 加<span class="STYLE1"> *</span> 处为必填内容 )</span></td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">性 别：</td>
+                        <td align="left" valign="middle"><label>
+                            <select name="性别">
+                                <option value="男" selected="selected">男</option>
+                                <option value="女">女</option>
+                            </select>
+                        </label> <span class="STYLE1">*</span></td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">城 市：</td>
+                        <td align="left" valign="middle"><label>
+                            <input type="text" name="城市" />
+                        </label>
+                            <span class="STYLE1">*</span></td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">详细地址：</td>
+                        <td align="left" valign="middle"><label>
+                            <input type="text" name="详细地" />
+                        </label>
+                            <span class="STYLE1">*</span></td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">电 话：</td>
+                        <td align="left" valign="middle"><label>
+                            <input type="text" name="电话" />
+                        </label>
+                            <span class="STYLE1">*</span></td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">传 真：</td>
+                        <td align="left" valign="middle"><label>
+                            <input type="text" name="传真" />
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">E -mail：</td>
+                        <td align="left" valign="middle"><label>
+                            <input type="text" name="E-mail" />
+                        </label></td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">备 注：</td>
+                        <td align="left" valign="middle"><label>
+                            <textarea name="备注" cols="50" rows="7"></textarea>
+                        </label></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td align="left" valign="middle"><table width="300" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center" valign="middle"><label>
+                                    <input type="submit" name="submit" value="提交" />
+                                </label></td>
+                                <td align="center" valign="middle"><label>
+                                    <input type="reset" name="reset" value="重填" />
+                                </label></td>
+                            </tr>
+                        </table></td>
+                    </tr>
+                </form>
+            </table>
+
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!--footer-->
+    <div class="footer">
+        <div class="warp">
+            <div class="footer-nav fl">
+                <ul>
+                    <li><a href="index.html">网站首页</a></li>
+                    <li><a href="about.html">公司简介</a></li>
+                    <li><a href="products.html">产品展示</a></li>
+                    <li><a href="case.html">成功案例</a></li>
+                    <li><a href="news.html">新闻中心</a></li>
+                    <li><a href="message.html">在线留言</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact fr">
+                <div class="footer-contact-left fl">
+                    <div class="footer-left-title">
+                        <div class="footer-pic fl">
+                            <img src="images/footer-set.png" class="img" alt="">
+                        </div>
+                        <div class="footer-title fl">
+                            <strong>
+                                某某泵业制造有限公司
+                            </strong>
+                            <p>BENG YUE MANUFACTURING Co.,Ltd</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="foot-left-box">
+                        <p>
+                            <span>全国服务热线:400-123456789</span>
+
+                            <span>E-mail:tottiedsd@qq.com</span>
+                        </p>
+                        <p>
+                            公司地址:安徽省合肥市长江西路250号
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="footer-erweima">
+                        <img src="images/erweima.png" alt="">
+                        <img src="images/erweima.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-bg fl"></div>
+                <div class="footer-contact-right fr">
+                    <strong>告诉我们您的需求</strong>
+                    <form action="">
+                        <div class="footer-right-title fl">
+                            <label for="">标题 <span>*</span></label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        <div class="footer-right-phone fl">
+                            <label for=""> 手机号码 <span>*</span></label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        <div class="footer-right-email fl">
+                            <label for="">电子邮箱 <span>*</span></label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        <div class="footer-right-contact fl">
+                            <label for=""> 内容 <span>*</span></label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        <input type="submit" value="提交留言">
+                    </form>
+                </div>
+                <div class="clear"></div>
+                <div class="footer-copyright">
+                    <p>Copyright ©2017 某某泵业制造有限公司  浙ICP备100000XX号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

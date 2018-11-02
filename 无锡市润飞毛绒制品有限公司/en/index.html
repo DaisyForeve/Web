@@ -1,0 +1,178 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="" /></a>
+        <ul id="nav">
+            <li><a href="index.html">Index</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="equipment.html">Equipment</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="recruit.html">Recruit</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul><!-- nav -->
+        <span class="btn">
+                <a href="../cn/index.html">Chinese</a><a href="../en/index.html">English</a>
+        </span>
+    </div>
+    <!--top-->
+
+    <div id="banner">
+        <div class="bd">
+            <ul>
+                <li><img src="images/banner.jpg" alt="" /></li>
+                <li><img src="images/banner.jpg" alt="" /></li>
+                <li><img src="images/banner.jpg" alt="" /></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            jQuery("#banner").slide({
+                mainCell: ".bd ul",
+                effect: "fold",
+                autoPlay: true
+            });
+        </script>
+    </div>
+    <!--banner-->
+
+    <div id="pro">
+        <div class="w1100 main cr">
+            <div class="tit"><a href="">产品中心<span>PRODUCTS</span></a></div>
+            <div class="bd">
+                <ul>
+                    <li>
+                        <a href="productsd.html">
+                            <img src="images/pro.jpg" alt="" />
+                            <span>产品名称</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="productsd.html">
+                            <img src="images/pro.jpg" alt="" />
+                            <span>产品名称</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="productsd.html">
+                            <img src="images/pro.jpg" alt="" />
+                            <span>产品名称</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="productsd.html">
+                            <img src="images/pro.jpg" alt="" />
+                            <span>产品名称</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="productsd.html">
+                            <img src="images/pro.jpg" alt="" />
+                            <span>产品名称</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="javascript:;" class="btn prev"></a>
+            <a href="javascript:;" class="btn next"></a>
+            <script type="text/javascript">
+                jQuery("#pro").slide({
+                    mainCell: ".bd ul",
+                    effect: "leftLoop",
+                    autoPlay: true,
+                    vis: 4
+                });
+            </script>
+        </div>
+        <div class="cr"></div>
+    </div><!-- pro -->
+
+
+    <div id="about">
+        <div class="w1100 main cr">
+            <div class="index-tit">
+                <a href="" class="tit-a"><span>ABOUT US</span>关于百利宏</a>
+            </div>
+            <div class="con">
+                <div class="img fl">
+                    <img src="images/about.jpg" alt="" />
+                </div><!-- img -->
+                <div class="memo fl">
+                    某某某有限公司位于中国历史文化名城、亚洲纺织品集散中心--绍兴袍江工业园区。公司集织造、染色、后整理为一体，专业生产、加工各档针织面料。<br />
+                    　　公司拥有德国、新加坡、台湾产针织圆机30多台，台湾产力根定型机2台，台湾亚矶染色缸11台，溢流染色机16台，年生产各类针织布6000多吨。<br />
+                    　　主要产品以纯棉、人棉、涤棉、莫代尔、竹纤维、天丝、氨纶、锦纶、涤纶等原料为主，有汗布系列、网眼系列、大小循环系列、罗纹系列、提花系列、绒布系列、泳布系列、毛圈系列、印花系列、平纹系列等各档针织面料。<br />
+                    　　公司凭借世界一流的设备，先进的技术，成熟的工艺深得客户的青睐，产品远销欧美、非洲及中东地区。在浙江、上海、江苏、山东等国内市场占主导地位。
+                </div><!-- memo -->
+                <div class="cont fr">
+                    <span style=" height: 30px; line-height: 30px; padding-left: 10px;">咨询服务热线</span><br />
+                    <span style="font-size: 18px; height: 40px; line-height: 40px; font-weight: bold; display: block; border-bottom: 1px solid #bfbfbf; padding-left: 50px; background: url(images/cont-img1.png) 5px center no-repeat;">0575-88042218</span>
+                    <span style=" height: 30px; line-height: 30px; padding-left: 10px;">手机号码</span><br />
+                    <span style="font-size: 18px; height: 40px; line-height: 40px; font-weight: bold; display: block; border-bottom: 1px solid #bfbfbf; padding-left: 50px; background: url(images/cont-img2.png) 5px center no-repeat;">135-7550-8086</span>
+                    <span style=" height: 30px; line-height: 30px; padding-left: 10px;">我们位于</span><br />
+                    <span style="font-size: 16px; height: 40px; line-height: 40px; display: block;  padding-left: 50px; background: url(images/cont-img3.png) 5px center no-repeat;">
+                        绍兴市袍江财富中心166号</span>
+                </div><!-- cont -->
+                <div class="cr"></div>
+            </div>
+        </div><!-- w1100 -->
+        <div class="cr"></div>
+    </div><!-- about -->
+
+    <div id="equip">
+        <div class="w1100 main cr">
+            <div class="index-tit"><a href=""><span>EQUIPMENT</span>厂房设备</a></div>
+            <div class="bd">
+                <ul class="equip">
+                    <li>
+                        <a href="equipmentsd.html">
+                            <img src="images/equip.jpg" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="equipmentsd.html">
+                            <img src="images/equip.jpg" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="equipmentsd.html">
+                            <img src="images/equip.jpg" alt="" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="javascript:;" class="btn prev"></a>
+            <a href="javascript:;" class="btn next"></a>
+            <script type="text/javascript">
+                jQuery("#equip").slide({
+                    mainCell: ".bd ul",
+                    effect: "leftLoop",
+                    autoPlay: true,
+                    vis: 3
+                });
+            </script>
+        </div>
+    </div><!-- equip -->
+
+    <div id="footer">
+        <div class="w1100 main cr">
+            ADD：某某某 TEL：0575-88042218 FAX：0575-88047376 联系人：某某 手机：(0)13575508086 <br />
+            网址：www.sx-blh.com 邮箱：shongheiying@126.com <br />
+            Copyrigh© 2015 某某某某 All rights reserved. 技术支持：浙江搜派
+        </div>
+    </div>
+    <!--footer-->
+</body>
+
+</html>

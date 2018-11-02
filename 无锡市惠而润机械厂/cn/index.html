@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/html5zoo.js"></script>
+    <script src="js/lovelygallery.js"></script>
+    <script src="js/wow.js"></script>
+</head>
+<body>
+<!--头部 -->
+    <div class="warp">
+        <div class="header">
+            <div class="header-left">
+                <img src="images/logo.png" class="img" alt="">
+            </div>
+            <div class="clear"></div>
+            <div class="header-left-text">
+                <div class="header-left-text-bg">
+                    <strong>
+                        <span><a>某某泵业</a>制造有限公司</span>
+                    </strong>
+                </div>
+                <div class="header-left-text-sm">
+                   <span>
+                       BENG YUE MANUFACTURING Co.,Ltd
+                   </span>
+                </div>
+            </div>
+            <div class="header-center">
+                <p>10年泵业专业生产机构</p>
+                <p>前沿科技 卓越品质 你身边的供水专家</p>
+            </div>
+            <div class="header-right">
+                <img src="images/phone.png" alt="">
+                <span>订购热线电话:</span>
+                <p>400-123456789</p>
+            </div>
+        </div>
+    </div>
+<!--导航栏-->
+    <nav>
+        <div class="warp">
+            <ul>
+                <li class="active"><a href="index.html">网站首页</a></li>
+                <li><a href="about.html">公司简介</a></li>
+                <li><a href="products.html">产品展示</a></li>
+                <li><a href="news.html">新闻动态</a></li>
+                <li><a href="join.html">人才招聘</a></li>
+                <li><a href="message.html">在线留言</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--banner图-->
+
+    <div class="pics_wrap">
+        <div id="html5zoo-1">
+            <ul class="html5zoo-slides" style="display: none;height: 600px;">
+                <li>
+                    <img src="images/banner-1.jpg"  class="img"/>
+                </li>
+                <li>
+                    <img src="images/banner-2.jpg"  class="img" />
+                </li>
+            </ul>
+        </div>
+        <div class="banner-text">
+            <div class="banner-text1 wow slideInLeft">
+                <h1>智控生活 泵誉天下</h1>
+            </div>
+            <div class="banner-text2">
+                <p class="wow slideInRight banner-text2P">机电行业值得信赖的优质商家</p>
+                <p class="wow zoomIn banner-text2PS">MECHANICAL AND ELECTRICAL INDUSTRY TRUSTWORTHY HIGH-QUALITY BUSINESSES</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var wowBanner1 = new WOW({
+            boxClass:'banner-text1',
+        });
+        var wowBanner2 = new WOW({
+            boxClass:'banner-text2P',
+        });
+        var wowBanner3 = new WOW({
+            boxClass:'banner-text2PS',
+        })
+
+        wowBanner1.init();
+        wowBanner2.init();
+        wowBanner3.init();
+    </script>
+    <!--搜索-->
+    <div class="clear"></div>
+    <div class="search">
+        <div class="warp">
+            <div class="search-pic fl" >
+                <img src="images/search.png" class="img" alt="">
+            </div>
+            <div class="search-text fl">
+                <p>
+                    <span>热门关键词搜索：</span>
+                    <span>自吸泵    齿轮油泵    不锈钢排污泵    管道离心泵    消防泵   深井泵    潜水泵</span>
+                </p>
+            </div>
+            <form action="" class="fr">
+                <input type="text" placeholder="请输入关键词">
+                <input type="submit" value="搜索">
+            </form>
+        </div>
+    </div>
+    <!--关于我们+企业相册-->
+    <div class="index-about-pic">
+        <div class="warp">
+            <div class="index-about-pic-left wow slideInLeft" >
+                <img src="images/timg.png" class="img" alt="">
+            </div>
+            <script>
+                var wow1 = new WOW({
+                    boxClass:'index-about-pic-left',
+                })
+                wow1.init();
+            </script>
+        </div>
+
+        <div class="index-about-pic-right">
+            <div class="index-about">
+                <div class="warp">
+                    <p>—— <span>关于我们</span> ABOUT US ——</p>
+                    <div class="index-about-text wow slideInRight">
+                        <p>
+                            某某泵业制造有限公司座落于上海市金山工业园区，是国内一家著名的集研制、开发、生产、销售、服务于一体的大型多元化企业，注册资本1100万元。主导产品包括：螺杆泵、隔膜泵、液下泵、磁力泵、排污泵等类别。产品以优越的性能，精良的品质已获得各项专业认证证书及客户的认可。公司拥有多名水泵专家和各类中高级工程师，不断的开发制造，升级换代产品年年都有问世。       公司拥有国内较高水准的水泵性能测试中心，产品全部采用CAD设计软件和CFD计算流体力学软件等先进设计手段，产品经过精密铸造、热锻压、焊接、热处理、精加工、装配等十多道工序。使用先进的数控加工中心、等离子焊接机......
+                            <a href="#">查看更多&gt;&gt;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var wow6 = new WOW({
+                    boxClass:'index-about-text',
+                })
+                wow6.init();
+            </script>
+            <!--企业相册-->
+            <div class="warp">
+                <div class="index-pic">
+                    <p>
+                        <span>企业相册  </span>
+                        <span class="fr">
+                            ———————————————————————————————————————————————————
+                        </span>
+                    </p>
+                    <div id="pic_s">
+                        <table>
+                            <tr>
+                                <td >
+                                    <a href="javascript:void(0)">
+                                        <img src="images/pic-1.jpg"/>
+                                    </a>
+                                </td>
+                                <td >
+                                    <a href="javascript:void(0)">
+                                        <img src="images/pic-2.jpg"/>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)">
+                                        <img src="images/pic-3.jpg" />
+                                    </a>
+                                </td>
+                                <td >
+                                    <a href="javascript:void(0)">
+                                        <img src="images/pic-1.jpg" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    <!--企业相册自动轮播-->
+        <script src="js/MSClass.js"></script>
+        <script>
+            var marquee1 = new Marquee("pic_s")
+            marquee1.Direction = "left";
+            marquee1.Step = 2;
+            marquee1.Width =900;
+            marquee1.Height = 150;
+            marquee1.Timer = 50;
+            marquee1.DelayTime =0;
+            marquee1.WaitTime = 0;
+            marquee1.ScrollStep = 52;
+            marquee1.Start();
+        </script>
+    </div>
+    <!--中间设计图标-->
+    <div class="center-set">
+        <div class="warp">
+            <div class="pen  fl">
+                <img src="images/pen.png"  alt="" class="pen-img wow bounceIn"  data-wow-iteration="1">
+                <p class="text1">OEM加工</p>
+                <p class="text2">支持按需定制</p>
+            </div>
+
+            <div class="handrail fl"></div>
+            <div class="cup fl" >
+                <img src="images/cup.png" alt="" class="pen-img wow bounceIn"  data-wow-iteration="1">
+                <p class="text1">各类齐全</p>
+                <p class="text2">优越性价比 经济实用</p>
+            </div>
+            <div class="handrail fl"></div>
+            <div class="set fl">
+                <img src="images/set.png" alt="" class="pen-img wow bounceIn"  data-wow-iteration="1">
+                <p class="text1">质量保证</p>
+                <p class="text2">放心购物 售后无忧</p>
+            </div>
+            <div class="handrail fl"></div>
+            <div class="people fl">
+                <img src="images/people.png" alt="" class="pen-img wow bounceIn"  data-wow-iteration="1">
+                <p class="text1">实力雄厚</p>
+                <p class="text2">从事行业20年 经验丰富</p>
+            </div>
+            <div class="handrail fl"></div>
+            <div class="heart fl">
+                <img src="images/heart.png" alt="" class="pen-img wow bounceIn"  data-wow-iteration="1">
+                <p class="text1">实力雄厚</p>
+                <p class="text2">从事行业20年 经验丰富</p>
+            </div>
+        </div>
+        <script>
+            var wow2 = new WOW({
+                boxClass:"pen-img",
+            })
+            wow2.init();
+        </script>
+    </div>
+    <!--首页产品-->
+    <div class="index-pro">
+        <div class="warp">
+            <div class="index-pro-box">
+                <div class="index-pro-left fl">
+                    <div class="index-pro-left-title">
+                        <p>产品分类</p>
+                        <p>PRODUCT CATEGORY</p>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="#">自吸泵</a></li>
+                        <li><a href="#">齿轮油泵</a></li>
+                        <li><a href="#">不锈钢排污泵</a></li>
+                        <li><a href="#">管道离心泵</a></li>
+                        <li><a href="#">消防泵</a></li>
+                        <li><a href="#">深井泵</a></li>
+                        <li><a href="#">潜水泵</a></li>
+                        <li><a href="#">查看更多产品&gt;&gt;</a></li>
+                    </ul>
+                </div>
+                <div class="index-pro-right fl">
+                    <ul>
+                        <li class="fl">
+                        <a href="#">
+                            <img src="images/pro-1.jpg" alt="">
+                            <p>自吸泵</p>
+                        </a>
+                        <p>价格：<span>450.00</span></p>
+                    </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="images/pro-1.jpg" alt="">
+                                <p>自吸泵</p>
+                            </a>
+                            <p>价格：<span>450.00</span></p>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="images/pro-1.jpg" alt="">
+                                <p>自吸泵</p>
+                            </a>
+                            <p>价格：<span>450.00</span></p>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="images/pro-1.jpg" alt="">
+                                <p>自吸泵</p>
+                            </a>
+                            <p>价格：<span>450.00</span></p>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="images/pro-1.jpg" alt="">
+                                <p>自吸泵</p>
+                            </a>
+                            <p>价格：<span>450.00</span></p>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="images/pro-1.jpg" alt="">
+                                <p>自吸泵</p>
+                            </a>
+                            <p>价格：<span>450.00</span></p>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="images/pro-1.jpg" alt="">
+                                <p>自吸泵</p>
+                            </a>
+                            <p>价格：<span>450.00</span></p>
+                        </li>
+                        <li class="fl">
+                            <a href="#">
+                                <img src="images/pro-1.jpg" alt="">
+                                <p>自吸泵</p>
+                            </a>
+                            <p>价格：<span>450.00</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <script>
+                    $(function(){
+                        $(".index-pro-right>ul>li").each(function(i){
+                            if(i%4==0){
+                                $(".index-pro-right>ul>li").eq(i).css({"margin-left":"0px"});
+                            }
+                            if(i<=3){
+                                $(".index-pro-right>ul>li").eq(i).css({"margin-top":"0px"});
+                            }
+                        })
+                    })
+                </script>
+            </div>
+        </div>
+    </div>
+    <!--为什么选择-->
+    <div class="index-why">
+        <div class="warp">
+            <div class="index-why-title">
+                <h1>为什么选择XXX泵业  解密5大优势</h1>
+            </div>
+            <div class="index-why-content">
+                <div class="index-why-content1">
+                    <div class="index-why-content1-left fl">
+                        <div class="index-why-content1-title">
+                            <p class="fl">01</p>
+                            <div class="text3">
+                                <strong>XXXX泵业确保产品质量</strong>
+                                <p>严格按照IOS9001-2001控制 确保产品质量</p>
+                            </div>
+                        </div>
+                        <div class="index-why-content-part">
+                            <div class="index-why-content-part"></div>
+                        </div>
+                        <div class="index-why-content1-body">
+                            <p>
+                                XXXX泵业具有完善的质量保证体系，推行全面的质量管理方略，在完善和先进的质量检测技术装置（如炉前化学实验设备、DV-4光电直读光谱仪、Neophot-32金相分析仪）的支持下，进一步加强从原材料化学成份分析、物理性能检测到每个零部件及每道工序的质量监督、检验控制，从而确保了产品的质量。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="index-why-content1-X"></div>
+                    <div class="index-why-content1-right wow slideInRight fl" data-wow-duration="2s"  data-wow-delay="0s" data-wow-iteration="1">
+                        <img src="images/why.jpg">
+                    </div>
+                </div>
+                <script>
+                    var wow = new WOW({
+                        boxClass:'index-why-content1-right',
+                    })
+                    wow.init();
+                </script>
+                <div class="index-why-content2">
+                    <div class="index-why-content2-left wow slideInLeft fl" data-wow-duration="2s" data-wow-iteration="1">
+                        <img src="images/why-2.jpg" alt="">
+                    </div>
+                    <div class="index-why-content2-X"></div>
+                    <div class="index-why-content2-right fl">
+                        <div class="index-why-content2-title">
+                            <p class="fl">02</p>
+                            <div class="text3">
+                                <strong>XXXX泵业确保产品质量</strong>
+                                <p>严格按照IOS9001-2001控制 确保产品质量</p>
+                            </div>
+                        </div>
+                        <div class="index-why-content-part">
+                            <div class="index-why-content-part"></div>
+                        </div>
+                        <div class="index-why-content2-body">
+                            <p>
+                                XXXX泵业具有完善的质量保证体系，推行全面的质量管理方略，在完善和先进的质量检测技术装置（如炉前化学实验设备、DV-4光电直读光谱仪、Neophot-32金相分析仪）的支持下，进一步加强从原材料化学成份分析、物理性能检测到每个零部件及每道工序的质量监督、检验控制，从而确保了产品的质量。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    var wow3 = new WOW({
+                        boxClass:'index-why-content2-left',
+                    })
+                    wow3.init();
+                </script>
+                <div class="index-why-content1">
+                    <div class="index-why-content1-left fl">
+                        <div class="index-why-content1-title">
+                            <p class="fl">03</p>
+                            <div class="text3">
+                                <strong>XXXX泵业确保产品质量</strong>
+                                <p>严格按照IOS9001-2001控制 确保产品质量</p>
+                            </div>
+                        </div>
+                        <div class="index-why-content-part">
+                            <div class="index-why-content-part"></div>
+                        </div>
+                        <div class="index-why-content1-body">
+                            <p>
+                                XXXX泵业具有完善的质量保证体系，推行全面的质量管理方略，在完善和先进的质量检测技术装置（如炉前化学实验设备、DV-4光电直读光谱仪、Neophot-32金相分析仪）的支持下，进一步加强从原材料化学成份分析、物理性能检测到每个零部件及每道工序的质量监督、检验控制，从而确保了产品的质量。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="index-why-content1-right wow slideInRight fl" data-wow-duration="2s"  data-wow-delay="0s" data-wow-iteration="1">
+                        <img src="images/why-3.jpg">
+                    </div>
+                </div>
+                <div class="index-why-content3-X"></div>
+                <div class="index-why-content2">
+                    <div class="index-why-content2-left index-why-content4-left wow slideInLeft fl" data-wow-duration="2s"  data-wow-delay="0s" data-wow-iteration="1">
+                        <img src="images/why-4.jpg" alt="">
+                    </div>
+                    <div class="index-why-content2-right fl">
+                        <div class="index-why-content2-title">
+                            <p class="fl">04</p>
+                            <div class="text3">
+                                <strong>XXXX泵业确保产品质量</strong>
+                                <p>严格按照IOS9001-2001控制 确保产品质量</p>
+                            </div>
+                        </div>
+                        <div class="index-why-content-part">
+                            <div class="index-why-content-part"></div>
+                        </div>
+                        <div class="index-why-content2-body">
+                            <p>
+                                XXXX泵业具有完善的质量保证体系，推行全面的质量管理方略，在完善和先进的质量检测技术装置（如炉前化学实验设备、DV-4光电直读光谱仪、Neophot-32金相分析仪）的支持下，进一步加强从原材料化学成份分析、物理性能检测到每个零部件及每道工序的质量监督、检验控制，从而确保了产品的质量。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-why-content4-X"></div>
+                <div class="index-why-content1">
+                    <div class="index-why-content1-left fl">
+                        <div class="index-why-content1-title">
+                            <p class="fl">05</p>
+                            <div class="text3">
+                                <strong>XXXX泵业确保产品质量</strong>
+                                <p>严格按照IOS9001-2001控制 确保产品质量</p>
+                            </div>
+                        </div>
+                        <div class="index-why-content-part">
+                            <div class="index-why-content-part"></div>
+                        </div>
+                        <div class="index-why-content1-body">
+                            <p>
+                                XXXX泵业具有完善的质量保证体系，推行全面的质量管理方略，在完善和先进的质量检测技术装置（如炉前化学实验设备、DV-4光电直读光谱仪、Neophot-32金相分析仪）的支持下，进一步加强从原材料化学成份分析、物理性能检测到每个零部件及每道工序的质量监督、检验控制，从而确保了产品的质量。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="index-why-content1-right wow slideInRight fl" data-wow-duration="2s"  data-wow-delay="0s" data-wow-iteration="1">
+                        <img src="images/why-5.jpg" style="width: 525px;height: 320px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--应用领域展示-->
+    <div class="index-successful">
+        <div class="warp">
+            <div class="index-successful-title">
+                <strong style="display:block" class="wow slideInLeft wowLeft">应用领域展示</strong>
+                <p  class="wow zoomInLeft ">SUCCESSFUL CASE SHOW</p>
+                <div class="index-successful-bg">
+                </div>
+            </div>
+            <p><span>水泵质量经得市场的考验  我们与市政单位或工项目都有长期的合作，例如上海中铁局  万达集团  万科集团星级酒店等等 </span></p>
+            <div class="index-successful-pic">
+                <ul>
+                    <li class="fl">
+                        <a href="#">
+                            <img src="images/success-pic1.jpg" alt="">
+                            <p>拉布湾电站</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <img src="images/success-pic1.jpg" alt="">
+                            <p>拉布湾电站</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <img src="images/success-pic1.jpg" alt="">
+                            <p>拉布湾电站</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <img src="images/success-pic1.jpg" alt="">
+                            <p>拉布湾电站</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <img src="images/success-pic1.jpg" alt="">
+                            <p>拉布湾电站</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <img src="images/success-pic1.jpg" alt="">
+                            <p>拉布湾电站</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('.index-successful-pic li').each(function(i){
+                if(i%3==0){
+                    $('.index-successful-pic li').eq(i).css({"margin-left":"0px"});
+                }
+                if(i<3){
+                    $('.index-successful-pic li').eq(i).css({"margin-top":"0px"});
+                }
+            })
+            var wow7 = new WOW({
+                boxClass:'wowLeft'
+            })
+            var wow8 = new WOW({
+                boxClass:'zoomInLeft'
+            })
+            wow7.init();
+            wow8.init();
+        })
+    </script>
+    <!--消费者使用感言-->
+    <div class="consumer">
+        <div class="warp">
+            <div class="consumer-title">
+                <strong style="display:block" class="wow slideInLeft wowLeft">消费者使用感言</strong>
+                <p class="wow zoomInLeft ">CONSUMER TESTIMONIALS</p>
+                <div class="consumer-title-bg"></div>
+            </div>
+            <div class="consumer-box">
+                <div class="consumer-box1 fl">
+                    <div class="consumer-box1-pic">
+                        <img src="images/consumer1.jpg" alt="" class="img">
+                    </div>
+                    <div class="consumer-box1-text">
+                        <div>
+                            <strong>某某公司总经理</strong>
+                        </div>
+                        <p>
+                            <span>已经收到 货真价实的好东西实物和图片一样 没有一点色差 很 耐用 没有损坏 做工 很精细首次合作，发货速快，产品看着不错的，重量也足，价格实惠，先卖卖看，质量要是用出来好的话，以后长期合作</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="consumer-box1 fl">
+                    <div class="consumer-box1-pic">
+                        <img src="images/consumer2.jpg" alt="" class="img">
+                    </div>
+                    <div class="consumer-box1-text">
+                        <div>
+                            <strong>某某公司总经理</strong>
+                        </div>
+                        <p>
+                            <span>已经收到 货真价实的好东西实物和图片一样 没有一点色差 很 耐用 没有损坏 做工 很精细首次合作，发货速快，产品看着不错的，重量也足，价格实惠，先卖卖看，质量要是用出来好的话，以后长期合作</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="consumer-box1 fl">
+                    <div class="consumer-box1-pic">
+                        <img src="images/consumer3.jpg" alt="" class="img">
+                    </div>
+                    <div class="consumer-box1-text">
+                        <div>
+                            <strong>某某公司总经理</strong>
+                        </div>
+                        <p>
+                            <span>已经收到 货真价实的好东西实物和图片一样 没有一点色差 很 耐用 没有损坏 做工 很精细首次合作，发货速快，产品看着不错的，重量也足，价格实惠，先卖卖看，质量要是用出来好的话，以后长期合作</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="consumer-box1 fl">
+                    <div class="consumer-box1-pic">
+                        <img src="images/consumer4.jpg" alt="" class="img">
+                    </div>
+                    <div class="consumer-box1-text">
+                        <div>
+                            <strong>某某公司总经理</strong>
+                        </div>
+                        <p>
+                            <span>已经收到 货真价实的好东西实物和图片一样 没有一点色差 很 耐用 没有损坏 做工 很精细首次合作，发货速快，产品看着不错的，重量也足，价格实惠，先卖卖看，质量要是用出来好的话，以后长期合作</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="consumer-text-bg">
+
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('.consumer-box1').eq(0).css({'margin-left':'0px'})
+        })
+    </script>
+    <!--新闻资讯/常见问题解答-->
+    <div class="index-news-problem">
+        <div class="warp">
+            <div class="index-news fl">
+                <div class="index-news-title">
+                    <p class="fl wow bounceInLeft index-News-title-textNew" data-wow-duration="1s">
+                        <strong>新闻资讯</strong>
+                        <span>NEWS CENTER</span>
+                    </p>
+                    <p class="fr">
+                        <a href="#">更多+</a>
+                    </p>
+                </div>
+                <div class="index-news-title-bg"></div>
+                <script>
+                    var wow5 = new WOW({
+                        boxClass:'index-News-title-textNew',
+                    })
+                    wow5.init();
+                </script>
+                <div class="index-news-body">
+                    <ul>
+                        <li>
+                            <p class="fl">
+                                <strong>05</strong>
+                                <span>2014-09</span>
+                            </p>
+                            <div class="fr">
+                                <a href="#">走进"中国科技第一展"</a>
+                                <p>XX月XX日至XX日，中国国际高新技术成果交易会在深圳会展中心隆重举行。XX集团作为装备制造产业中创新业绩突出、对产业技术进步具有重要作用的代表性企业，应国家发改委等主办方邀参加了“加强自主创新，推动产业振兴”主题展览，参展收到了显著效果。 </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="fl">
+                                <strong>05</strong>
+                                <span>2014-09</span>
+                            </p>
+                            <div class="fr">
+                                <a href="#">走进"中国科技第一展"</a>
+                                <p>XX月XX日至XX日，中国国际高新技术成果交易会在深圳会展中心隆重举行。XX集团作为装备制造产业中创新业绩突出、对产业技术进步具有重要作用的代表性企业，应国家发改委等主办方邀参加了“加强自主创新，推动产业振兴”主题展览，参展收到了显著效果。 </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="fl">
+                                <strong>05</strong>
+                                <span>2014-09</span>
+                            </p>
+                            <div class="fr">
+                                <a href="#">走进"中国科技第一展"</a>
+                                <p>XX月XX日至XX日，中国国际高新技术成果交易会在深圳会展中心隆重举行。XX集团作为装备制造产业中创新业绩突出、对产业技术进步具有重要作用的代表性企业，应国家发改委等主办方邀参加了“加强自主创新，推动产业振兴”主题展览，参展收到了显著效果。 </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="fl">
+                                <strong>05</strong>
+                                <span>2014-09</span>
+                            </p>
+                            <div class="fr">
+                                <a href="#">走进"中国科技第一展"</a>
+                                <p>XX月XX日至XX日，中国国际高新技术成果交易会在深圳会展中心隆重举行。XX集团作为装备制造产业中创新业绩突出、对产业技术进步具有重要作用的代表性企业，应国家发改委等主办方邀参加了“加强自主创新，推动产业振兴”主题展览，参展收到了显著效果。 </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="fl">
+                                <strong>05</strong>
+                                <span>2014-09</span>
+                            </p>
+                            <div class="fr">
+                                <a href="#">走进"中国科技第一展"</a>
+                                <p>XX月XX日至XX日，中国国际高新技术成果交易会在深圳会展中心隆重举行。XX集团作为装备制造产业中创新业绩突出、对产业技术进步具有重要作用的代表性企业，应国家发改委等主办方邀参加了“加强自主创新，推动产业振兴”主题展览，参展收到了显著效果。 </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="fl">
+                                <strong>05</strong>
+                                <span>2014-09</span>
+                            </p>
+                            <div class="fr">
+                                <a href="#">走进"中国科技第一展"</a>
+                                <p>XX月XX日至XX日，中国国际高新技术成果交易会在深圳会展中心隆重举行。XX集团作为装备制造产业中创新业绩突出、对产业技术进步具有重要作用的代表性企业，应国家发改委等主办方邀参加了“加强自主创新，推动产业振兴”主题展览，参展收到了显著效果。 </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="index-problem fr">
+                <div class="index-news-title">
+                    <p class="fl wow bounceInRight index-news-title-text" data-wow-duration="1s">
+                        <strong>常见问题解答</strong>
+                        <span>PROBLEM</span>
+                    </p>
+                    <p class="fr">
+                        <a href="#">更多+</a>
+                    </p>
+                </div>
+                <script>
+                    var wow4 = new WOW({
+                        boxClass:'index-news-title-text',
+                    })
+                    wow4.init();
+                </script>
+                <div class="index-problem-title-bg"></div>
+                <div class="index-problem-body">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <strong>致使潜水泵电机运转发热变烫的原因</strong>
+                            </a>
+                            <p>根据市场销售及各实际使用客户等多方面的反馈信息，总结了如下导致潜水泵电机运转超载太烫发热的主要因素</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>致使潜水泵电机运转发热变烫的原因</strong>
+                            </a>
+                            <p>根据市场销售及各实际使用客户等多方面的反馈信息，总结了如下导致潜水泵电机运转超载太烫发热的主要因素</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>致使潜水泵电机运转发热变烫的原因</strong>
+                            </a>
+                            <p>根据市场销售及各实际使用客户等多方面的反馈信息，总结了如下导致潜水泵电机运转超载太烫发热的主要因素</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>致使潜水泵电机运转发热变烫的原因</strong>
+                            </a>
+                            <p>根据市场销售及各实际使用客户等多方面的反馈信息，总结了如下导致潜水泵电机运转超载太烫发热的主要因素</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>致使潜水泵电机运转发热变烫的原因</strong>
+                            </a>
+                            <p>根据市场销售及各实际使用客户等多方面的反馈信息，总结了如下导致潜水泵电机运转超载太烫发热的主要因素</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>致使潜水泵电机运转发热变烫的原因</strong>
+                            </a>
+                            <p>根据市场销售及各实际使用客户等多方面的反馈信息，总结了如下导致潜水泵电机运转超载太烫发热的主要因素</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="warp">
+            <div class="footer-nav fl">
+                <ul>
+                    <li><a href="index.html">网站首页</a></li>
+                    <li><a href="about.html">公司简介</a></li>
+                    <li><a href="products.html">产品展示</a></li>
+                    <li><a href="news.html">新闻动态</a></li>
+                    <li><a href="join.html">人才招聘</a></li>
+                    <li><a href="message.html">在线留言</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact fr">
+                <div class="footer-contact-left fl">
+                    <div class="footer-left-title">
+                        <div class="footer-pic fl">
+                            <img src="images/footer-set.png" class="img" alt="">
+                        </div>
+                        <div class="footer-title fl">
+                            <strong>
+                                某某泵业制造有限公司
+                            </strong>
+                            <p>BENG YUE MANUFACTURING Co.,Ltd</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="foot-left-box">
+                        <p>
+                            <span>全国服务热线:400-123456789</span>
+
+                            <span>E-mail:tottiedsd@qq.com</span>
+                        </p>
+                        <p>
+                            公司地址:安徽省合肥市长江西路250号
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="footer-erweima">
+                        <img src="images/erweima.png" alt="">
+                        <img src="images/erweima.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-bg fl"></div>
+                <div class="footer-contact-right fr">
+                    <strong>告诉我们您的需求</strong>
+                    <form action="">
+                        <div class="footer-right-title fl">
+                            <label for="">标题 <span>*</span></label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        <div class="footer-right-phone fl">
+                            <label for=""> 手机号码 <span>*</span></label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        <div class="footer-right-email fl">
+                            <label for="">电子邮箱 <span>*</span></label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        <div class="footer-right-contact fl">
+                            <label for=""> 内容 <span>*</span></label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        <input type="submit" value="提交留言">
+                    </form>
+                </div>
+                <div class="clear"></div>
+                <div class="footer-copyright">
+                    <p>Copyright ©2017 某某泵业制造有限公司  浙ICP备100000XX号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/lianjie.js"></script>
+    <script src="js/MSClass.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/style.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="warp">
+            <div class="logo wow fadeIn fl">
+                <img src="images/logo.png" alt="logo" class="img">
+            </div>
+            <span class="fl">种子行业信用评级AAA级企业</span>
+            <div class="header-right fr">
+                <p class="header-text1">
+                    <a href="#">企业邮箱</a>
+                    <a href="#" onClick="SetHome('网址')" href="javascript:void(0)" title="设为首页" class="homepage">设为首页</a>
+                    <a href="javascript:void(0)" onclick="AddFavorite()">加入收藏</a>
+                </p>
+                <p class="header-text2">
+                    全国服务热线 : 0635-XXX2378 
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 分割线 -->
+    <div class="header-bg"></div>
+     
+    <!-- 导航栏 -->
+    <div class="nav">
+        <div class="warp">
+            <ul>
+                <li class="active"><a href="index.html">网站首页</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="products.html">产品展示</a></li>
+                <li><a href="news.html">新闻动态</a></li>
+                <li><a href="company.html">公司一角</a></li>
+                <li><a href="message.html">留言板</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- 轮播图 -->
+    <div class="banner">
+        <div class="swiper-container swiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/banner-1.jpg"  class="img" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner-2.jpg"  class="img" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner-3.jpg"  class="img" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next banner-next"></div>
+            <div class="swiper-button-prev banner-prev"></div>
+        </div>
+    </div>
+
+    <!-- 首页关于我们 -->
+    <div class="index-about">
+        <div class="warp">
+            <div class="index-about-tit index-about-text wow fadeInUp">
+                <b>食安中国梦 · 田园心奋斗</b>
+                <p>公司目前拥有控参股企业12家，业务涵盖玉米、小麦、水稻三大粮食作物等农作物种业、农药、肥料以及农业综合服务业务。公司已于2015年实现了小麦种业全国第一、水稻种业全国第六、玉米种业全国第九的阶段性目标，综合实力位居中国种业第四位，已成为推动中国现代种业发展的重要力量。</p>
+            </div>
+            <div class="index-about-box">
+                <div class="index-about-left fl">
+                    <div class="index-about-left-pic index-about-pic wow flipInY">
+                        <img src="images/index-about-left.png" class="img" alt="">
+                    </div>
+                    <div class="wow index-about-text fadeInUp">
+                        <b>集团荣誉</b>
+                        <p>公司成功登陆新三板，成为西南区域**在新三板挂牌的“育繁推一体化”种子企业</p>
+                    </div>
+                    
+                </div>
+                <div class="index-about-center fl">
+                    <div class="index-about-pic index-about-center-pic wow flipInY">
+                        <img src="images/index-about-center.png" class="img" alt="">
+                    </div>
+                    <div class="wow index-about-text fadeInUp">
+                        <b>发展历程</b>
+                        <p>建成了“自主技术创新+产学研合作技术创新+开放式的技术创新”的三位一体技术创新模式</p>
+                    </div>
+                </div>
+                <div class="index-about-right fr">
+                    <div class="index-about-pic index-about-right-pic wow flipInY">
+                        <img src="images/index-about-right.png" class="img" alt="">
+                    </div>
+                    <div class="wow index-about-text fadeInUp">
+                        <b>企业文化</b>
+                        <p>公司始终坚持“一粒种子一颗感恩的心”的营销理念和“以市场和客户为中心”的服务理念</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 产业布局 -->
+    <div class="dealer">
+        <div class="warp">
+            <div class="dealer-tit">
+                <p>产业布局</p>
+                <p>EXCELLENT DEALER</p>
+            </div>
+            <div class="dealer-banner">
+                <div class="swiper-container dealer-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="width:328px;">
+                            <a href="#">
+                               <img src="images/dealer-1.jpg" alt=""> 
+                               <p>种业公司</p>
+                            </a>                           
+                        </div>
+                        <div class="swiper-slide" style="width:328px;">
+                            <a href="#">
+                                <img src="images/dealer-2.jpg"  alt="">
+                                <p>服务公司</p>
+                            </a>                            
+                        </div>
+                        <div class="swiper-slide" style="width:328px;">
+                            <a href="#">
+                                <img src="images/dealer-3.jpg"  alt="">
+                                <p>农化公司</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        <div class="dealer-bottom"></div>
+    </div>
+    <!-- 产品展示 -->
+    <div class="index-pro">
+        <div class="warp">
+            <div class="index-pro-tit">
+                <strong>产品展示</strong>
+                <p>TECHNOLOGY & PRODUCTS</p>
+            </div>
+            <div class="index-pro-pic">
+                <div class="index-pro-left fl wow fadeInLeft">
+                    <div class="index-pro-left-pic1">
+                        <a href="#">
+                           <img src="images/rice.jpg" class="img" alt="">            <div class="mask1">
+                               <strong>水稻种子</strong>
+                           </div> 
+                        </a>
+                    </div>
+                    
+                    <div class="index-pro-left-pic2">
+                        <a href="#">
+                            <img src="images/rape.jpg" class="img" alt="">
+                            <div class="mask2">
+                                <strong>油菜种子</strong>
+                            </div> 
+                        </a>
+                    </div>
+                </div>
+                <div class="index-pro-center wow zoomIn fl">
+                    <a href="#">
+                        <img src="images/wheat.jpg"  alt="">
+                        <div class="mask5">
+                            <strong>小麦种子</strong>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-pro-right wow fadeInRight fr">
+                    <div class="index-pro-right-pic1">
+                        <a href="#">
+                            <img src="images/maize.jpg" class="img index" alt="">
+                            <div class="mask3">
+                                <strong>玉米种子</strong>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="index-pro-right-pic2">
+                        <a href="#">
+                            <img src="images/vegetables.jpg" alt="" class="img index">
+                            <div class="mask4">
+                                <strong>蔬菜种子</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 遮罩 -->
+    <div class="index-shade" id="index-shade" data-stellar-background-ratio="0.5"></div>
+
+    <!-- 新闻资讯 -->
+    <div class="index-news">
+        <div class="warp">
+            <div class="index-news-tit">
+                <strong>新闻资讯</strong>
+                <p>TECHNOLOGY & PRODUCTS</p>
+            </div>
+            <div class="index-news-body">
+                <div class="index-news-body-left fl">
+                    <div class="index-news-body-pic">
+                        <a href="#">
+                            <img src="images/index-news-1.jpg" class="img" alt="">
+                            <div class="news-mask">
+                                <strong>集团公告</strong>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="index-news-body-text">
+                        <ul>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="index-news-body-center fl">
+                    <div class="index-news-body-pic">
+                        <a href="#">
+                            <img src="images/index-news-2.jpg" class="img" alt="">
+                            <div class="news-mask">
+                                <strong>媒体聚焦</strong>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="index-news-body-text">
+                        <ul>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="index-news-body-right fr">
+                    <div class="index-news-body-pic">
+                        <a href="#">
+                           <img src="images/index-news-3.jpg" class="img" alt="">
+                           <div class="news-mask">
+                                <strong>行业新闻</strong>
+                            </div>   
+                        </a>
+                    </div>
+                    <div class="index-news-body-text">
+                        <ul>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                            <li>
+                                <a href="#">北京市种子管理站人员赴我公司河南育种站实</a>
+                                <p>8月29日，国电集团在藏**水电项目——西藏尼洋河多布水电站首台机组（4号机）完成72小时试运行，正</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 服务支持 -->
+    <div class="index-service">
+        <div class="warp">
+            <div class="index-service-tit">
+                <strong>服务支持</strong>
+                <p>SERVICE SUPPORT</p>
+            </div>
+            <div class="index-service-box">
+                <div class="index-service-left fl">
+                    <div class="index-service-left-top">
+                        <div class="index-service-text fl">
+                            <b>人力资源</b>
+                            <p>
+                                企业靠员工发展，员工靠企业立业;
+                                先有满意的员工，才有满意的客户。
+                            </p>
+                        </div>
+                        <div class="index-service-pic wow fadeIn fr">
+                            <a href="#">
+                               <img src="images/service-1.jpg" class="img" alt=""> 
+                               <div class="service-mask"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="index-service-left-bottom">
+                        <div class="index-service-pic wow fadeIn  fl">
+                            <a href="#">
+                                <img src="images/service-2.jpg" class="img" alt=""> 
+                                <div class="service-mask"></div>
+                            </a>
+                        </div>
+                        <div class="index-service-text fr">
+                            <b>科研创新</b>
+                            <p>
+                                建立与国际接轨的"高技术、大通量、流水线、工厂化"育种平台
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-service-right fr">
+                    <div class="index-service-right-top">
+                        <div class="index-service-text fl">
+                            <b>招商加盟</b>
+                            <p>
+                                海纳百川，有容乃大，我们真诚邀请国内经销代理商加盟，共创伟业！
+                            </p>
+                        </div>
+                        <div class="index-service-pic wow fadeIn  fr">
+                            <a href="#">
+                                <img src="images/service-3.jpg" class="img" alt=""> 
+                                <div class="service-mask"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="index-service-right-bottom">
+                        <div class="index-service-pic wow fadeIn  fl">
+                            <a href="#">
+                                <img src="images/service-4.jpg" class="img" alt=""> 
+                                <div class="service-mask"></div>
+                            </a>
+                        </div>
+                        <div class="index-service-text fr">
+                            <b>联系我们</b>
+                            <p>
+                                马上拨打企业专线，客户顾问正在在线等您，我们将竭诚为你服务
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 经销商 -->
+    <div class="customer">
+        <div class="warp">
+            <div class="customer-tit">
+                <p>为客户创造价值、传递价值是我们较终使命</p>
+                <p>Creating value for customers,delivering value is our ultimate mission</p>
+            </div>
+            <div class="customer-pic" id="pic_s">
+                <table>
+                    <tr>
+                        <td >
+                            <a href="javascript:void(0)">
+                                <img src="images/customer-1.jpg"/>
+                                <p>广东经销商</p>
+                            </a>
+                        </td>
+                        <td >
+                            <a href="javascript:void(0)">
+                                <img src="images/customer-2.jpg"/>
+                                <p>河南经销商</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)">
+                                <img src="images/customer-3.jpg" />
+                                <p>安徽经销商</p>
+                            </a>
+                        </td>
+                        <td >
+                            <a href="javascript:void(0)">
+                                <img src="images/customer-4.jpg" />
+                                <p>湖北经销商</p>
+                            </a>
+                        </td>
+                        <td >
+                            <a href="javascript:void(0)">
+                                <img src="images/customer-1.jpg"/>
+                                <p>河北经销商</p>
+                            </a>
+                        </td>
+                        <td >
+                            <a href="javascript:void(0)">
+                                <img src="images/customer-2.jpg"/>
+                                <p>湖南经销商</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0)">
+                                <img src="images/customer-3.jpg" />
+                                <p>海南经销商</p>
+                            </a>
+                        </td>
+                        <td >
+                            <a href="javascript:void(0)">
+                                <img src="images/customer-4.jpg" />
+                                <p>吉林经销商</p>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="clear"></div>
+    <div class="footer">
+        <!-- 底部联系 -->
+        <div class="footer-contact">
+            <div class="warp">
+                <div class="footer-contact-fl fl">
+                    <strong>让我们更近一些，您可以</strong>
+                    <p class="footer-text1">马上拨打企业专线  客服热线正在在线等您</p>
+                    <p class="footer-tel">400-820-8820</p>
+                    <strong>联系在线客服</strong>
+                    <p class="footer-text1">现在就向客服顾问咨询您要了解的问题</p>
+                    <a href="#">点我咨询</a>
+                </div>
+                <div class="footer-contact-cn fl">
+                    <strong>您还可以</strong>
+                    <p>给我们留言 客服顾问会立刻联系你</p>
+                    <form action="">
+                        <input type="text" placeholder="姓名">
+                        <input type="text" placeholder="手机">
+                        <textarea placeholder="留言"></textarea>
+                        <input type="submit" value="立即预约">
+                    </form>
+                </div>
+                <div class="footer-contact-fr fr">
+                    <div class="erweima">
+                        <img src="images/erweima.jpg" class="img" alt="">
+                    </div>
+                    <p>微信公众号</p>
+                    <div class="erweima">
+                        <img src="images/erweima.jpg" class="img" alt="">
+                    </div>
+                    <p>移动端网站</p>
+                </div>
+            </div>
+        </div>
+        <!-- 底部版权 -->
+        <div class="copyright">
+            <div class="warp">
+                <span>
+                        Copyright © 2009 - 2014 Cld , All Rights Reserved 种业集团有限公司   版权所有 陕ICP备XXXXXXXX号
+                </span>
+                <div class="copyright-pic1">
+                    <img src="images/footer-icon.gif" class="img" alt="">
+                </div>
+                <div class="copyright-pic2">
+                    <img src="images/footer-bg.gif" class="img" alt="">
+                </div>
+                <p>
+                   <span>Copyright yourname allrights reserved</span>
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html> 
